@@ -1,0 +1,199 @@
+
+.welcome{
+    position: absolute;
+    width: 892px;
+    height: 143px;
+    left: 138px;
+    top: 375px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 110px;
+
+    color: #000000;
+
+}
+
+.welcome:hover{
+    color: aqua;
+    font-size: 100px;
+}
+
+.intro{
+    position: absolute;
+    width: 746px;
+    height: 106px;
+    left: 138px;
+    top: 530px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    
+    color: #000000;
+    
+}
+
+
+#work{
+    position: absolute;
+    left: 69.69%;
+    right: 25%;
+    top: 3.1%;
+    bottom: 94.46%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 47px;
+
+    color: white;
+}
+
+#play{
+    position: absolute;
+    left: 76.51%;
+    right: 18.18%;
+    top: 3.1%;
+    bottom: 94.46%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 47px;
+
+    color:white;
+}
+
+#about{
+    position: absolute;
+    left: 81.82%;
+    right: 11.51%;
+    top: 3.1%;
+    bottom: 94.46%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 47px;
+
+    color: white;
+}
+
+#resume{
+    position: absolute;
+    left: 88.96%;
+    right: 2.97%;
+    top: 3.1%;
+    bottom: 94.44%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 47px;
+
+    color: white;
+}
+
+.recleft{
+    position: absolute;
+    width: 480px;
+    height: 975px;
+    right: 0px;
+    top: 0px;
+
+    background: #2C2C2C;
+}
+
+.recbottom{
+    position: absolute;
+    width: 1920px;
+    height: 1287px;
+    right: 0px;
+    top: 1006px;
+
+    background: #2C2C2C;
+}
+
+.image{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 750px;
+    top: 120px;
+    background: #C4C4C4;
+}
+
+.recContact{
+    position: absolute;
+    width: 223px;
+    height: 67px;
+    left: 138px;
+    top: 688px;
+    
+    background: #2C2C2C;
+    border-radius: 15px;
+}
+
+.contact{
+    position: absolute;
+    left: 10.52%;
+    right: 75.83%;
+    top: 88.6%;
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+
+    color: white;
+}
+
+.navbar{
+    position: absolute;
+    top: 1050px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    background-color: cadetblue;
+    padding: 5px;
+}
+
+.nav-item{
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.grid-container{
+    position: absolute;
+    top: 1100px;
+    display: grid;
+    width: 50%;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item{
+    background-color: white;
+    border: 10px solid #2C2C2C;
+    padding: 60px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.grid-item-big{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
